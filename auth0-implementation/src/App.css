@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  min-height: 100vh;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  width: fit-content;
+}
